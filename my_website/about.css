@@ -1,17 +1,54 @@
 body{
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    background-color:
 }
 table{
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #d1ccbd;
 }
 th{
     border: 1px solid black;
     text-align: center;
+    width: 240px;
+    height: 25px;
 }
 td{
     border: 1px solid black;
     text-align: center;
+    height: 25px;
+}
+h2{
+    text-align: center;
+    color: rgb(224, 60, 49);
+}
+.period{
+    color: rgb(224, 60, 49);
+    width: 80px;
+}
+.class{
+    color: rgb(0, 107, 166);
+}
+h1{
+    font-family: Oswald;
+	font-size: 120px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+p{
+    text-align: center;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
