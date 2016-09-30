@@ -49,18 +49,22 @@ h2{
     text-align: center;
     color: #E9967A;
 }
+h3{
+ text-align: center;   
+}
 table{
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #d1ccbd;
+    background-color: #8FBC8F;
 }
 th{
     border: 1px solid black;
     text-align: center;
     width: 240px;
     height: 25px;
+    background-color: #E9967A;
 }
 td{
     border: 1px solid black;
@@ -68,11 +72,11 @@ td{
     height: 25px;
 }
 .period{
-    color:	#E9967A;
+    color:	rgb(255,254,254);
     width: 80px;
 }
 .class{
-    color: rgb(0, 107, 166);
+    color: rgb(255,254,254);
 }
 
 p{
