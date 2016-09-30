@@ -17,7 +17,8 @@ body{
     border-right: 1px solid #F5F5F5;
 }    
 .active{
-    background-color: #8FBC8F;
+    background-color: rgb(255,254,254);
+    color: #E9967A;
 }
 li a{
     display: block;
@@ -28,6 +29,7 @@ li a{
 
 li a:hover {
     background-color: #8FBC8F;
+    color: rgb(255,254,254);
     
 }
 h1{
