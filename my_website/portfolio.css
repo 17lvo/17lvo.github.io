@@ -17,7 +17,8 @@ body{
     border-right: 1px solid #F5F5F5;
 }    
 .active{
-    background-color: #8FBC8F;
+    background-color: rgb(255,254,254);
+    color: #E9967A;
 }
 li a{
     display: block;
@@ -28,6 +29,7 @@ li a{
 
 li a:hover {
     background-color: #8FBC8F;
+    color: rgb(255,254,254);
     
 }
 h1{
@@ -37,7 +39,7 @@ h1{
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-left: 30px;
 }
 img{
@@ -46,21 +48,25 @@ img{
     z-index: -1;
 }
 h2{
-    text-align: center;
+    text-align: left;
     color: #E9967A;
+}
+h3{
+ text-align: center; 
 }
 table{
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #d1ccbd;
+    background-color: #8FBC8F;
 }
 th{
     border: 1px solid black;
     text-align: center;
     width: 240px;
     height: 25px;
+    background-color: #E9967A;
 }
 td{
     border: 1px solid black;
@@ -68,14 +74,31 @@ td{
     height: 25px;
 }
 .period{
-    color:	#E9967A;
+    color:	rgb(255,254,254);
     width: 80px;
 }
 .class{
-    color: rgb(0, 107, 166);
+    color: rgb(255,254,254);
 }
 
 p{
     text-align: center;
 }
+div.scrollmenu {
+    background-color: #8FBC8F;
+    overflow: auto;
+    white-space: nowrap;
+}
 
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #E9967A;
+    color: rgb(255,254,254);
+}
